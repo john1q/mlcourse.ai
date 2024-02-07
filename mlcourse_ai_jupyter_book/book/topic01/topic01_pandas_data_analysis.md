@@ -267,7 +267,7 @@ Almost the same thing can be done with the `replace` method.
 <details>
 <summary>Difference in treating values that are absent in the mapping dictionary</summary>
 <p>
-There's a slight difference. Еру `replace` method will not do anything with values not found in the mapping dictionary, while `map` will change them to NaNs).
+There's a slight difference. The `replace` method will not do anything with values not found in the mapping dictionary, while `map` will change them to NaNs).
 
 ```{code-cell} ipython3
 a_series = pd.Series(['a', 'b', 'c'])
